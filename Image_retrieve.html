@@ -1,0 +1,32 @@
+<!--
+   This is front part of the project. 
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+            Below few lines gets the .css file from the src folder.
+        -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Image Retrieve</title>
+        <link rel="stylesheet" type="text/css" href="../src/css/main.css">
+    </head>
+    <body>
+        <div>
+            <!--
+                below lines display the text box and buttons.
+            -->
+            <div class="card">
+                <input text="" placeholder="Enter the text to be searched"  id="searchbox"/>
+                <button onclick="clicked()" class="searchbutton" id="idSearch">Retrieve Images from the Dataset</button>
+                <button onclick="SeachPhotos()" class="searchbutton">Retrieve Images from the Web</button>
+            </div>
+        <div id="main"></div>
+        </div>
+    </body>
+    <!-- Download jQuery cdn.
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</html>
+
