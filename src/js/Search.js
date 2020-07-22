@@ -72,7 +72,7 @@ SearchPhotos()->
 
 window.SeachPhotos = () =>  {
     $('#imageRenderer').empty();
-    let clientId = "PPwkLvLUbLBZPDEzX1Rko0yRMFf8M9s8cYIBQrMlK5w";
+    let clientId = "id will foun in unsplash.com. create account and copy ID here";
     let query = document.getElementById("searchbox").value;
     // below line gets the clientId and query from the user and finds images in unsplash.com.
     let url1 = "https://api.unsplash.com/search/photos/?client_id="+clientId+"&query="+query;
@@ -225,3 +225,5 @@ let resetData = () => {
         mainObj.appended = false;
     });
 };
+
+/*PPwkLvLUbLBZPDEzX1Rko0yRMFf8M9s8cYIBQrMlK5w*/
