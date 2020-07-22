@@ -33,7 +33,7 @@
         "style-loader": "^0.19.0",
         "url-loader": "^4.0.0",
         "webpack": "^3.0.0",
-        "webpack-dev-server": "^2.4.2"
+        "webpack-dev-server": "^3.11.0"
     },
     "dependencies": {
         "dsv-loader": "^2.0.0",
